@@ -1,5 +1,31 @@
-# Vue 3 + Vite
+# Quasar Web Components + Vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This template helps you get started using **Quasar Framework** as **Web Components** in a Vite project.  
+You can use Quasar UI components without Vue, directly in any HTML page or framework.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Features
+
+- Quasar components as native **Web Components**
+- Works in **any framework** (React, Angular, Svelte) or plain HTML/JS
+- Vite-powered development for fast hot-module reload
+- Fully customizable themes, dark/light mode
+- Supports Quasar icons and utilities
+
+## Install the dependencies
+```bash
+yarn
+# or
+npm install
+```
+
+### Start the app in development mode
+```bash
+npm run dev
+```
+
+
+### Build the app for production
+```bash
+npm run build
+```
+

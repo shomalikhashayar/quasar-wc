@@ -1,4 +1,5 @@
 <template>
+ <div class="my-wrapper">
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
       <q-toolbar>
@@ -10,6 +11,8 @@
           aria-label="Menu"
           @click="toggleLeftDrawer"
         />
+
+        <my-button class="my-button" label="This is my button component"></my-button>
 
         <q-toolbar-title>
           Quasar App
@@ -149,7 +152,7 @@
         </q-card-section>
       </q-card>
     </q-dialog>
-  </q-layout>
+  </q-layout></div>
 </template>
 
 <script setup>

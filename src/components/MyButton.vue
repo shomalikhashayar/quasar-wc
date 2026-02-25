@@ -1,5 +1,5 @@
 <template>
-  <q-btn label="Click me" color="primary" />
+  <q-btn rounded label="Click me" color="primary" />
 </template>
 
 <script setup>

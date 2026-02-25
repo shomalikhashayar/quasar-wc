@@ -6,6 +6,7 @@ import '@quasar/extras/material-icons/material-icons.css';
 
 // Import Quasar css
 import 'quasar/src/css/index.sass'
+import './css/app.css'
 
 import {
     defineCustomElement as _defineCustomElement,
